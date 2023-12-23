@@ -1,20 +1,20 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 813px;
+  height: 100vh; /* min-height yerine height kullanalım */
 }
 
 .u-section-1 .u-image-1 {
-  width: 497px;
+  width: 497px; /* İsterseniz bu değeri değiştirebilirsiniz */
 }
 
 .u-section-1 .u-btn-1 {
   font-size: 3rem;
-  margin: 354px auto 60px 80px;
+  margin: 60px auto 80px 80px; /* margin değerlerini ayarlayabilirsiniz */
   padding: 19px 34px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 814px;
+    height: 814px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -24,7 +24,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-image-1 {
-    height: 814px;
+    height: auto; /* Bu değeri değiştirebilirsiniz */
     left: auto;
     bottom: auto;
     right: auto;
@@ -34,20 +34,18 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
+    height: 100vh;
   }
 
   .u-section-1 .u-image-1 {
     height: 680px;
     width: 440px;
-    margin: 0 -50px;
+    margin: 0 auto; /* Bu değeri değiştirebilirsiniz */
   }
 
   .u-section-1 .u-btn-1 {
     font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
+    margin: 10px auto; /* Bu değeri değiştirebilirsiniz */
     padding: 9px 11px 10px 10px;
   }
 }
