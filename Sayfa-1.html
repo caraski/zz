@@ -24,7 +24,7 @@
     <meta data-intl-tel-input-cdn-path="intlTelInput/">
     <style>
         body, html {
-            height: 80%;
+            height: 100%;
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -42,8 +42,14 @@
         }
 
         .u-image-1 {
-            width: 60%;
+            width: 80%; /* Adjust image width as needed */
             height: auto;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .u-image-1 {
+                width: 100%; /* Adjust image width for smaller screens */
+            }
         }
     </style>
 </head>
